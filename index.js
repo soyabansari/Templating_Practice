@@ -16,7 +16,7 @@ app.get('/random',(req,res)=>{
  const num = Math.floor(Math.random()*10)+1;
  let flag ;
  if(num%2==0){
-  flag = "even";
+  flag = "even number";
  }
  else{
   flag = "odd";
