@@ -31,7 +31,7 @@ app.get('/r/:subreddit',(req,res)=>{
    res.render('subreddit',{...data});
  }
  else{
-  res.render('notfound',{subreddit});
+  res.render('Notfound',{subreddit});
  }
 })
 
