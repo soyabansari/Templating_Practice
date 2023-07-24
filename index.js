@@ -19,7 +19,7 @@ app.get('/random',(req,res)=>{
   flag = "even number";
  }
  else{
-  flag = "odd";
+  flag = "odd number";
  }
  res.render('random',{rand:num,flag});
 })
